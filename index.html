@@ -1,0 +1,222 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Sacramento|Share+Tech+Mono|Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="myscript.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <p class="D">
+          D<span class="retti"><strong>retti's</strong></span> <span class="diner">DINER</span>
+        </p>
+      </a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+          <a href="#home"><span class="glyphicon glyphicon-home"></span> HOME</a>
+        </li>
+        <li>
+          <a href="#about"><span class="glyphicon glyphicon-question-sign"></span> ABOUT</a>
+        </li>
+        <li>
+          <a href="#menu"><span class="glyphicon glyphicon-th-list"></span> MENU</a>
+        </li>
+        <li>
+          <a href="#findus"><span class="glyphicon glyphicon-map-marker"></span> FIND US</a>
+        </li>
+        <li>
+          <a href="#contactus"><span class="glyphicon glyphicon-phone-alt"></span> CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="home" class="container-fluid">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+
+    <div class="carousel-inner" role="listbox">
+      <div class="parallax item active">
+      </div>
+
+      <div class="parallax2 item">
+      </div>
+
+      <div class="parallax3 item">
+      </div>
+
+      <div class="parallax4 item">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2><strong>ABOUT US</strong></h2>
+        <p>
+          Dretti's Diner is an extension of our loving family's home.
+          We finally open our doors to guests who share our same passion for food
+          and who enjoy eating out together.
+        </p>
+        <p>
+          Guests will truly feel right at home with our household recipes at very
+          affordable prices.
+        </p>
+        <p>
+          Our cool and cozy interiors can be the perfect venue for happy and lasting memories.
+        </p>
+      </div>
+      <div class="col-sm-4 cutlery">
+        <span class="glyphicon glyphicon-cutlery"></span>
+      </div>
+    </div>
+</div>
+
+<!--<div class="container-fluid menu">
+  <div class="text-left">
+    <h2><strong>OUR MENU</strong></h2>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3>STARTER5</h3>
+        </div>
+        <div class="panel-body">
+          <p>SPRING ROLLS Php125</p>
+          <p>POTATO CHEESE BALLS Php125</p>
+          <p>CALAMARES Php175</p>
+          <p>GREEN MANGO SALAD Php125</p>
+          <p>NACHO SALAD Php145</p>
+          <p>BBQ CHX CLUB SANDWICH Php145</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3>ALL-DAY FAVOR1TE5</h3>
+        </div>
+        <div class="panel-body">
+          <p>BEEF TAPA Php125</p>
+          <p>PORK TOCINO Php125</p>
+          <p>DAING NA BANGUS Php145</p>
+          <p>DINOSAUR EGG Php145</p>
+          <p>SIZZLING BEEF TENDERLOIN Php145</p>
+          <p>CHILI RICE BOWL Php145</p>
+          <p>MONGOLIAN RICE BOWL Php165</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3>PANC1T</h3>
+          <h5>SOLO/PARTY</h5>
+        </div>
+        <div class="panel-body">
+          <p>BAM-I Php125/Php350</p>
+          <p>PANCIT CANTON Php125/Php350</p>
+          <p>CRISPY NOODLES Php125/Php400</p>
+          <p>PANCIT MALABON Php125/Php450</p>
+          <p>GARLIC CHICKEN SOTANGHON Php125/Php450</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div id="menu" class="container-fluid">
+  <h2><strong>OUR MENU</strong></h2>
+  <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="4000">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel2" data-slide-to="1"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/menu1.jpg" />
+      </div>
+
+      <div class="item">
+        <img src="img/menu2.jpg" />
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="findus" class="container-fluid">
+  <h2><strong>OUR LOCATION</strong></h2>
+  <p>B2L23 Alabang-Zapote Road,</p>
+  <p>Pamplona Park, Brgy. Pamplona Dos</p>
+  <p>Las Piñas, Philippines</p>
+  <div id="googleMap"></div>
+</div>
+
+<div id="contactus" class="container-fluid">
+  <h2><strong>CONTACT US</strong></h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>
+        Call us now
+      </p>
+      <a href="tel:6328024863">
+        <div class="round-btn call">
+          <span class="glyphicon glyphicon-earphone"></span>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <p>
+        Like us on Facebook
+      </p>
+      <a href="https://www.facebook.com/drettisdiner/">
+        <div class="round-btn like">
+          <span class="glyphicon glyphicon-thumbs-up"></span>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <p>
+        Follow us on Instagram
+      </p>
+      <a href="https://www.instagram.com/drettisdiner/?hl=en">
+        <div class="round-btn follow">
+          <span class="glyphicon glyphicon-heart"></span>
+        </div>
+      </a>  
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
